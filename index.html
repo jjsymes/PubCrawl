@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pub List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍻</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pub Crawl</h1>
+    <div class="pub-crawl-card">
+        <div class="pub-list"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="pub-list-body">
+            </tbody>
+        </table>
+    </div>
+    <div class="progress-bar" hidden>
+        <h3>Progress:</h3>
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill">
+                <div>
+                    <span class="progress-bar-fill-text"></span>
+                    <span class="progress-bar-fill-percentage"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="crawl-complete-msg" hidden>🏆🍻</div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NiWuheXw292ZWdHMB4VHdwBmqltZKlc&ehbc=2E312F"
+            height="450"></iframe>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
