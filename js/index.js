@@ -77,7 +77,7 @@ function fillProgressBar() {
     progressBarFillPercentage.html(percentage.toFixed(2) + "%");
     let beerEmojis = "";
     for (let i = 0; i < percentage; i++) {
-        beerEmojis += "🍺".repeat(100);
+        beerEmojis += "🍺".repeat(10);
     }
     progressBarFillText.html(beerEmojis);
 }
