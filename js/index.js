@@ -2,7 +2,6 @@ let pubList = [
     "3 Johns",
     "The Castle",
     "The George and Monkey",
-    "The Harlequin",
     "Mikkeller Brewpub",
     "Betsey Trotwood",
     "The Holy Tavern",
