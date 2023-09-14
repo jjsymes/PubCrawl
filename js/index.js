@@ -1,12 +1,13 @@
 let pubList = [
-    "3 Johns",
-    "The Castle",
-    "The George and Monkey",
-    "Mikkeller Brewpub",
-    "Betsey Trotwood",
-    "The Holy Tavern",
-    "Hope Smithfield",
-    "Farringdon Tap"
+    "Junction Angel",
+    "The Harlequin",
+    "Old Red Lion Theatre Pub",
+    "The Island Queen",
+    "Narrowboat",
+    "The Earl of Essex",
+    "The York",
+    "The Islington Town House",
+    "The Three Johns",
 ]
 
 function populatePubList() {
